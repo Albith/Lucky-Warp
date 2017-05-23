@@ -6,9 +6,9 @@ Escape a tower full of mazes by running, jumping and teleporting to each level's
 
 The game utilizes the following libraries:
 
-*Cocos2D for iOS. This library, in turn, uses OpenGL ES to render its graphics.
+*Cocos2D for iOS. This library, in turn, uses OpenGL ES to render its graphics.*
 
-*SneakyJoystick, a joystick library written for Cocos2D using Objective-C
+*SneakyJoystick, a joystick library written for Cocos2D using Objective-C*
 
-*SimpleAudioEngine, a simple 2-channel audio library for Cocos2D
+*SimpleAudioEngine, a simple 2-channel audio library for Cocos2D*
 
