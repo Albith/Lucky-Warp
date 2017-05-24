@@ -8,6 +8,7 @@ The game utilizes several existing libraries:
 *Cocos2D for iOS. This library, in turn, uses OpenGL ES to render its graphics.*
 
 *SneakyJoystick, a joystick library written for Cocos2D using Objective-C*
+   
    *SneakyJoystickSkinnedBase, a visual skin for the SneakyJoystick class by .
 
 *SimpleAudioEngine, a simple 2-channel audio library for Cocos2D*
