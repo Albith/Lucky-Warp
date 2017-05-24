@@ -56,44 +56,5 @@
 	[self addChild:skinStick];
 }
 
--(void) update:(ccTime)delta
-{
-
-//Note: The code sample inside this update method is not used in my game.
-
-//totalTime += delta;
-//
-//	//// Continuous fire
-//	if (fireButton.active && totalTime > nextShotTime)
-//	{
-//		nextShotTime = totalTime + 0.5f;
-//
-//		GameScene* game = [GameScene sharedGameScene];
-//		ShipEntity* ship = [game defaultShip];
-//		BulletCache* bulletCache = [game bulletCache];
-//
-//		// Set the position, velocity and spriteframe before shooting
-//		CGPoint shotPos = CGPointMake(ship.position.x + [ship contentSize].width * 0.5f, ship.position.y);
-//		float spread = (CCRANDOM_0_1() - 0.5f) * 0.5f;
-//		CGPoint velocity = CGPointMake(4, spread);
-//		[bulletCache shootBulletFrom:shotPos velocity:velocity frameName:@"bullet.png" isPlayerBullet:YES];
-//	}
-//	
-//	// Allow faster shooting by quickly tapping the fire button.
-//	if (fireButton.active == NO)
-//	{
-//		nextShotTime = 0;
-//	}
-	
-	// Moving the ship with the thumbstick.
-	//GameScene* game = [GameScene sharedGameScene];
-	//ShipEntity* ship = [game defaultShip];
-//	
-//	CGPoint velocity = ccpMult(joystick.velocity, 200);
-//	if (velocity.x != 0 && velocity.y != 0)
-//	{
-//		ship.position = CGPointMake(ship.position.x + velocity.x * delta, ship.position.y + velocity.y * delta);
-//	}
-}
 
 @end
