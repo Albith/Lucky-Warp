@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="12" height="32" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="boxyTitle" tilewidth="64" tileheight="64">
+  <image source="boxyTile.png" width="64" height="64"/>
+ </tileset>
+ <layer name="up0" width="12" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYBRQAzBiwYMNYHPjYHQnOWAg/DXUwxIA9KTN+AAGAAA=
+  </data>
+ </layer>
+ <layer name="up1" width="12" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGNyAEQkTq55U82nhDmz6yNFPKRgoe6kFBjr8RsEoGM4AAIatcy8ABgAA
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="12" height="32">
+  <object x="0" y="1792" width="320" height="64"/>
+  <object x="448" y="1600" width="320" height="64"/>
+  <object x="0" y="1344" width="384" height="64"/>
+  <object x="448" y="1088" width="320" height="64"/>
+  <object x="0" y="896" width="320" height="64"/>
+  <object x="0" y="640" width="192" height="64"/>
+  <object x="128" y="384" width="128" height="64"/>
+  <object x="256" y="192" width="64" height="320"/>
+  <object x="320" y="192" width="128" height="64"/>
+  <object x="320" y="448" width="256" height="64"/>
+ </objectgroup>
+ <objectgroup name="OtherPoints" width="12" height="32">
+  <object name="SpawnPoint" x="128" y="1600"/>
+  <object name="Goal" x="384" y="448"/>
+ </objectgroup>
+</map>

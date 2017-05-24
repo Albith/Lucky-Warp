@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="32" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="steelTile32" tilewidth="32" tileheight="32">
+  <image source="steelTile32.png" width="32" height="32"/>
+ </tileset>
+ <layer name="Tiles" width="24" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NkYGBgpCEeBcMHjPT4HU3jo/4fzGC0HB56YLQOHd5gtN1EHzBcw5GWbXMQBgCsAoKgAAwAAA==
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="24" height="32">
+  <object x="0" y="640" width="288" height="32"/>
+  <object x="0" y="800" width="448" height="32"/>
+  <object x="576" y="896" width="192" height="32"/>
+  <object x="0" y="992" width="768" height="32"/>
+  <object x="128" y="352" width="160" height="32"/>
+  <object x="352" y="256" width="192" height="32"/>
+  <object x="608" y="160" width="160" height="32"/>
+  <object x="0" y="0" width="768" height="32"/>
+  <object x="352" y="480" width="224" height="32"/>
+ </objectgroup>
+ <objectgroup name="Game Objects" width="24" height="32">
+  <object name="SpawnPoint" x="64" y="512"/>
+  <object name="Goal" x="704" y="160"/>
+  <object name="KeyLocation" x="256" y="800"/>
+ </objectgroup>
+</map>

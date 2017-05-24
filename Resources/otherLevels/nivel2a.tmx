@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="32" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="steelTile32" tilewidth="32" tileheight="32">
+  <image source="steelTile32.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="Solid" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="spikes" tilewidth="32" tileheight="32">
+  <image source="spikes.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="woodenTile32" tilewidth="32" tileheight="32">
+  <image source="woodenTile32.png" width="32" height="32"/>
+ </tileset>
+ <layer name="Tiles" width="24" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NmYGBgpjGmFRg1f+iZT0r6GIzuJ8cOdPuomT/o6f6haP5QAfQuO0cBcWCg6jaY3UPdfFq2D4jRSw/zSfHbaPqhr/kDmX+HAgAAaQzxDQAMAAA=
+  </data>
+ </layer>
+ <layer name="Spikes" width="24" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoD1gohFGNp8Wbh41f9R8ats1CkbBQABCZegoGBhATP1GK3uR6YEE9Cx/B4N/hwOgVTiOlk30BQAKz48RAAwAAA==
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="24" height="32">
+  <object x="736" y="0" width="32" height="256"/>
+  <object x="32" y="0" width="704" height="32"/>
+  <object x="0" y="0" width="32" height="416"/>
+  <object x="0" y="608" width="256" height="32"/>
+  <object x="384" y="192" width="160" height="32"/>
+  <object x="224" y="640" width="32" height="288"/>
+  <object x="576" y="448" width="192" height="32"/>
+  <object x="96" y="288" width="192" height="32"/>
+  <object x="0" y="928" width="256" height="32"/>
+  <object x="128" y="800" width="96" height="32"/>
+  <object x="256" y="704" width="288" height="32"/>
+  <object x="512" y="736" width="32" height="64"/>
+  <object x="544" y="768" width="224" height="32"/>
+ </objectgroup>
+ <objectgroup name="Game Objects" width="24" height="32">
+  <object name="Player" x="128" y="512"/>
+  <object name="Goal" x="448" y="192"/>
+  <object name="Key" x="192" y="800"/>
+ </objectgroup>
+ <objectgroup name="Spike Rects" width="24" height="32">
+  <object x="32" y="32" width="704" height="32"/>
+  <object x="32" y="64" width="32" height="256"/>
+  <object x="704" y="64" width="32" height="192"/>
+  <object x="576" y="480" width="192" height="32"/>
+  <object x="0" y="640" width="224" height="32"/>
+  <object x="192" y="672" width="32" height="32"/>
+  <object x="256" y="672" width="32" height="32"/>
+  <object x="128" y="896" width="64" height="32"/>
+  <object x="192" y="864" width="32" height="64"/>
+  <object x="544" y="704" width="32" height="64"/>
+  <object x="640" y="736" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spark Rects" width="24" height="32">
+  <object x="96" y="288" width="192" height="32"/>
+ </objectgroup>
+ <objectgroup name="Platforms" width="24" height="32">
+  <object x="288" y="384">
+   <properties>
+    <property name="xOffset" value="200"/>
+    <property name="yOffset" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Teleports" width="24" height="32">
+  <object name="1" type="0" x="0" y="416" width="32" height="192"/>
+  <object name="3" type="0" x="0" y="640" width="32" height="288"/>
+  <object name="2" type="1" x="768" y="256" width="32" height="192"/>
+  <object name="4" type="1" x="768" y="480" width="32" height="288"/>
+ </objectgroup>
+</map>

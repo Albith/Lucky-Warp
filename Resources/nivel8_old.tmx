@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="32" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tile set BEST2" tilewidth="32" tileheight="32">
+  <image source="tile set BEST2.png" width="224" height="192"/>
+ </tileset>
+ <tileset firstgid="43" name="tile set LATEST" tilewidth="32" tileheight="32">
+  <image source="tile set LATEST.png" width="288" height="256"/>
+ </tileset>
+ <layer name="Tiles" width="24" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+NlYGAQBuJIKI0LJ0PpHDTxKKhYLhDnQfnI8rwMtAPco+bDQSIQJ0ExDxIeKu4fCPOzaGw+w6j5BIEIjc0fCiCCAZJvQWVnJJQNKm9TqGR+EpXMwQWSaWw+tcIBF8Dnfli8wOIDxI+EikUTaT654R9FpLo8Ms0n1l3ZZJqfBdWLnJ7R2SCcT6b5o2AUjALKAABlk4XdAAwAAA==
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="24" height="32" visible="0">
+  <object x="736" y="0" width="32" height="256"/>
+  <object x="32" y="0" width="704" height="32"/>
+  <object x="0" y="0" width="32" height="416"/>
+  <object x="0" y="608" width="256" height="32"/>
+  <object x="576" y="448" width="192" height="32"/>
+  <object x="224" y="640" width="32" height="96"/>
+  <object x="256" y="704" width="288" height="32"/>
+  <object x="544" y="448" width="32" height="288"/>
+  <object x="576" y="128" width="160" height="32"/>
+ </objectgroup>
+ <objectgroup name="Game Objects" width="24" height="32" visible="0">
+  <object name="Player" x="128" y="512"/>
+  <object name="Goal" x="672" y="128"/>
+ </objectgroup>
+ <objectgroup name="Teleports" width="24" height="32" visible="0">
+  <object name="1" type="0" x="0" y="416" width="32" height="192"/>
+  <object name="2" type="1" x="768" y="256" width="32" height="192"/>
+ </objectgroup>
+ <objectgroup name="Numbered Platforms" width="24" height="32" visible="0">
+  <object name="1" x="448" y="384"/>
+  <object name="2" x="288" y="384"/>
+  <object name="3" x="160" y="288"/>
+  <object name="4" x="288" y="192"/>
+  <object name="5" x="448" y="192"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="32" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tile set BEST" tilewidth="32" tileheight="32">
+  <image source="tile set BEST.png" width="224" height="160"/>
+ </tileset>
+ <layer name="Tiles" width="24" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjgHwgQGM8CoY3YIJiZiqYxYhkHgyPAtIAtjCkRtyMAuwAPaypjUfBKBgFowAXAABFOO/8AAwAAA==
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="24" height="32">
+  <object x="0" y="640" width="768" height="32"/>
+  <object x="128" y="512" width="192" height="32"/>
+  <object x="608" y="384" width="160" height="32"/>
+  <object x="0" y="192" width="768" height="32"/>
+  <object x="0" y="384" width="96" height="32"/>
+ </objectgroup>
+ <objectgroup name="Game Objects" width="24" height="32">
+  <object name="Player" x="480" y="512"/>
+  <object name="Goal" x="704" y="384"/>
+ </objectgroup>
+ <objectgroup name="Teleports" width="24" height="32">
+  <object name="1" type="0" x="0" y="224" width="32" height="160"/>
+  <object name="3" type="0" x="0" y="416" width="32" height="224"/>
+  <object name="2" type="1" x="768" y="224" width="32" height="160"/>
+  <object name="4" type="1" x="768" y="416" width="32" height="224"/>
+ </objectgroup>
+</map>

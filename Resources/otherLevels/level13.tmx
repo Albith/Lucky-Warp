@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="32" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="steelTile32" tilewidth="32" tileheight="32">
+  <image source="steelTile32.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="Solid" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="woodenTile32" tilewidth="32" tileheight="32">
+  <image source="woodenTile32.png" width="32" height="32"/>
+ </tileset>
+ <layer name="Tiles" width="24" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAAmAhgbIFYdAwE5YsFwN58amBy7iQWj5o+aP2r+qPmj5o+aP9jMH60faW8+KeFJjvmUguFuPrXb5wD3fF6JAAwAAA==
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="24" height="32">
+  <object x="640" y="32" width="32" height="960"/>
+  <object x="128" y="128" width="512" height="32"/>
+  <object x="512" y="0" width="160" height="32"/>
+  <object x="96" y="0" width="256" height="32"/>
+  <object x="128" y="864" width="160" height="32"/>
+  <object x="96" y="32" width="32" height="960"/>
+  <object x="96" y="992" width="256" height="32"/>
+  <object x="512" y="992" width="160" height="32"/>
+  <object x="352" y="736" width="288" height="32"/>
+ </objectgroup>
+ <objectgroup name="Game Objects" width="24" height="32">
+  <object name="Player" x="320" y="64"/>
+  <object name="Goal" x="544" y="736"/>
+ </objectgroup>
+ <objectgroup name="Teleports" width="24" height="32">
+  <object name="1" type="2" x="352" y="-32" width="160" height="32"/>
+  <object name="2" type="3" x="352" y="992" width="160" height="32"/>
+ </objectgroup>
+</map>

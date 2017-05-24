@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="32" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tile set LATEST" tilewidth="32" tileheight="32">
+  <image source="tile set LATEST.png" width="288" height="256"/>
+ </tileset>
+ <layer name="Tiles" width="24" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA82WSw6DMAxEcyKgO+jK0Pb+V2qsFglZL8rwicRI3lhmMji245Q09EKMZVuyPbPN2UaRO/2/aYmpMf+7Mf8LfPOF/Av4avfXZXuI/MRVuxP/5wH8VIvEH7+NMVNBA/ko/1FHPG8An4Nqnfitct4IPgfVxQd8EVGrn0+5oFpRoHLtmRtbGPioLynuKI5qVXFljxOoPq+EUnd3QetcKG+Q8g6WdMZZ0EGMUk8lnfFcj4vzn2ZgjWeFAX/MR5wXxKX2zAj8kY/uQ91VetBilfMc6q5Sel+2IK1qT5oQuyfXR6BqbT0nz+6Ptf357P5b02fpdwdrT7ke76UvmImpvgAMAAA=
+  </data>
+ </layer>
+ <layer name="Spikes" width="24" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYHADBQrlCakdNZ88teQABRxscs0g1XwFPHLEmE8MIKSfUvMptX8UjIJRMApGAQQoIGFamY9MDybzAed9f5YADAAA
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="24" height="32" visible="0">
+  <object x="128" y="640" width="32" height="192"/>
+  <object x="0" y="704" width="32" height="192"/>
+  <object x="160" y="224" width="32" height="224"/>
+  <object x="0" y="192" width="32" height="384"/>
+  <object x="320" y="0" width="32" height="352"/>
+  <object x="256" y="704" width="32" height="224"/>
+  <object x="416" y="640" width="32" height="224"/>
+  <object x="320" y="960" width="32" height="64"/>
+  <object x="608" y="576" width="32" height="160"/>
+  <object x="480" y="128" width="32" height="192"/>
+  <object x="608" y="0" width="160" height="32"/>
+  <object x="608" y="224" width="32" height="192"/>
+  <object x="736" y="160" width="32" height="192"/>
+  <object x="736" y="640" width="32" height="224"/>
+  <object x="576" y="864" width="32" height="160"/>
+  <object x="608" y="992" width="160" height="32"/>
+ </objectgroup>
+ <objectgroup name="Game Objects" width="24" height="32" visible="0">
+  <object name="Player" x="672" y="864"/>
+  <object name="Goal" x="480" y="128"/>
+  <object name="Key" x="128" y="640"/>
+ </objectgroup>
+ <objectgroup name="Spike Rects" width="24" height="32" visible="0">
+  <object x="32" y="224" width="32" height="128"/>
+  <object x="128" y="416" width="32" height="32"/>
+  <object x="160" y="448" width="32" height="32"/>
+  <object x="192" y="416" width="32" height="32"/>
+  <object x="288" y="224" width="32" height="128"/>
+  <object x="416" y="384" width="32" height="128"/>
+  <object x="640" y="224" width="32" height="192"/>
+  <object x="736" y="352" width="32" height="64"/>
+  <object x="288" y="960" width="32" height="64"/>
+  <object x="288" y="928" width="96" height="32"/>
+  <object x="352" y="960" width="32" height="64"/>
+ </objectgroup>
+ <objectgroup name="Spark Rects" width="24" height="32" visible="0">
+  <object x="160" y="224" width="32" height="224"/>
+  <object x="480" y="128" width="32" height="192"/>
+  <object x="256" y="704" width="32" height="224"/>
+  <object x="608" y="576" width="32" height="160"/>
+  <object x="0" y="704" width="32" height="192"/>
+ </objectgroup>
+ <objectgroup name="PlatformsB" width="24" height="32" visible="0"/>
+ <objectgroup name="Teleports" width="24" height="32" visible="0">
+  <object name="1" type="0" x="0" y="0" width="32" height="192"/>
+  <object name="3" type="2" x="0" y="-32" width="320" height="32"/>
+  <object name="2" type="1" x="768" y="864" width="32" height="128"/>
+  <object name="4" type="3" x="0" y="992" width="320" height="32"/>
+  <object name="5" type="0" x="0" y="576" width="32" height="128"/>
+  <object name="7" type="0" x="0" y="896" width="32" height="128"/>
+  <object name="9" type="2" x="352" y="-32" width="256" height="32"/>
+  <object name="8" type="1" x="768" y="32" width="32" height="128"/>
+  <object name="6" type="1" x="768" y="352" width="32" height="288"/>
+  <object name="10" type="3" x="352" y="992" width="224" height="32"/>
+ </objectgroup>
+</map>

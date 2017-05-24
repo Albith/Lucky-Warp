@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="32" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tile set LATEST" tilewidth="32" tileheight="32">
+  <image source="tile set LATEST.png" width="288" height="256"/>
+ </tileset>
+ <layer name="Tiles" width="24" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2UMQqAMAxFM+qoo4466mK19z+a+UggBBSEZCjkQWjp8LDJtwcRFa6T6+KqXIc6k1XO9V7W68WB/UixtO6fg/0rPXPQMyqO/t3RZbPUc3WOfgtmOzTsR3a2QD+y0wf6R/L9v/S7hRyh9575tEyBbrAE+7+yaXspVZ38HkRmH+Dt0X34c3fB9lG7or8/SZLkixszIEloAAwAAA==
+  </data>
+ </layer>
+ <layer name="Spikes" width="24" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3DMQ0AAAgDsDnBv0sU7ISrTZoAAN/mOECzAT94dQAMAAA=
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="24" height="32" visible="0">
+  <object x="736" y="224" width="32" height="384"/>
+  <object x="0" y="0" width="768" height="32"/>
+  <object x="0" y="32" width="32" height="416"/>
+  <object x="0" y="608" width="128" height="32"/>
+  <object x="32" y="160" width="160" height="32"/>
+  <object x="608" y="384" width="128" height="32"/>
+  <object x="608" y="192" width="160" height="32"/>
+  <object x="512" y="608" width="256" height="32"/>
+  <object x="192" y="512" width="224" height="32"/>
+ </objectgroup>
+ <objectgroup name="Game Objects" width="24" height="32" visible="0">
+  <object name="Player" x="640" y="512"/>
+  <object name="Goal" x="96" y="160"/>
+  <object name="Key" x="672" y="320"/>
+ </objectgroup>
+ <objectgroup name="Spike Rects" width="24" height="32" visible="0">
+  <object x="0" y="640" width="768" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spark Rects" width="24" height="32" visible="0">
+  <object x="192" y="512" width="224" height="32"/>
+ </objectgroup>
+ <objectgroup name="PlatformsB" width="24" height="32" visible="0">
+  <object x="192" y="288">
+   <properties>
+    <property name="xOffset" value="330"/>
+    <property name="yOffset" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Teleports" width="24" height="32" visible="0">
+  <object name="1" type="0" x="0" y="448" width="32" height="160"/>
+  <object name="2" type="1" x="768" y="32" width="32" height="160"/>
+ </objectgroup>
+</map>

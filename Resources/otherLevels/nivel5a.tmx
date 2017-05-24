@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="32" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="steelTile32" tilewidth="32" tileheight="32">
+  <image source="steelTile32.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="Solid" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="spikes" tilewidth="32" tileheight="32">
+  <image source="spikes.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="woodenTile32" tilewidth="32" tileheight="32">
+  <image source="woodenTile32.png" width="32" height="32"/>
+ </tileset>
+ <layer name="Tiles" width="24" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NmwA6YqYhJAaSoJ8cucswnBQyk+cSGPyE5UtwylMKHWuYTm+ZG0+fgNH80/Y+aP2r+qPmj5c/gMJ/U+pFUtaSAwR4+5GB8ZgMA5GsMlQAMAAA=
+  </data>
+ </layer>
+ <layer name="Spikes" width="24" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYBSMVMA0av6o+aNgFIwQMNTz26j5A2v+cAMAazaYRwAMAAA=
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="24" height="32">
+  <object x="736" y="32" width="32" height="960"/>
+  <object x="160" y="160" width="96" height="32"/>
+  <object x="32" y="896" width="96" height="32"/>
+  <object x="192" y="0" width="576" height="32"/>
+  <object x="416" y="896" width="64" height="32"/>
+  <object x="32" y="288" width="96" height="32"/>
+  <object x="0" y="992" width="544" height="32"/>
+  <object x="384" y="32" width="32" height="960"/>
+  <object x="160" y="800" width="96" height="32"/>
+  <object x="32" y="64" width="96" height="32"/>
+  <object x="0" y="0" width="32" height="992"/>
+  <object x="608" y="128" width="128" height="32"/>
+  <object x="160" y="416" width="96" height="32"/>
+  <object x="416" y="256" width="128" height="32"/>
+  <object x="704" y="992" width="64" height="32"/>
+ </objectgroup>
+ <objectgroup name="Game Objects" width="24" height="32">
+  <object name="Player" x="320" y="896"/>
+  <object name="Goal" x="672" y="128"/>
+ </objectgroup>
+ <objectgroup name="Spike Rects" width="24" height="32">
+  <object x="512" y="320" width="32" height="192"/>
+  <object x="640" y="736" width="32" height="192"/>
+ </objectgroup>
+ <objectgroup name="Spark Rects" width="24" height="32">
+  <object x="160" y="416" width="96" height="32"/>
+  <object x="160" y="160" width="96" height="32"/>
+  <object x="160" y="800" width="96" height="32"/>
+ </objectgroup>
+ <objectgroup name="PlatformsB" width="24" height="32">
+  <object x="320" y="544">
+   <properties>
+    <property name="xOffset" value="0"/>
+    <property name="yOffset" value="-290"/>
+   </properties>
+  </object>
+  <object x="544" y="704">
+   <properties>
+    <property name="xOffset" value="0"/>
+    <property name="yOffset" value="-190"/>
+   </properties>
+  </object>
+  <object x="672" y="448">
+   <properties>
+    <property name="xOffset" value="0"/>
+    <property name="yOffset" value="-245"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Teleports" width="24" height="32">
+  <object name="1" type="2" x="32" y="-32" width="160" height="32"/>
+  <object name="2" type="3" x="544" y="992" width="160" height="32"/>
+ </objectgroup>
+</map>

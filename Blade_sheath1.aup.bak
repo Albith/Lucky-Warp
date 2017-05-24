@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<audacityproject projname="Blade_sheath1_data" version="1.1.0" audacityversion="1.2.5" sel0="0.0000000000" sel1="0.3501133787" vpos="0" h="0.0000000000" zoom="2625.3400259067" rate="44100.000000" >
+	<tags title="" artist="" album="" track="-1" year="" genre="-1" comments="" id3v2="1" />
+	<wavetrack name="Blade_sheath1" channel="0" linked="1" offset="0.00000000" rate="44100.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="15440" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00236.au' len='15440' min='-0.651892' max='0.734071' rms='0.032836'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+	<wavetrack name="Blade_sheath1" channel="1" linked="0" offset="0.00000000" rate="44100.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="15440" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00237.au' len='15440' min='-0.651892' max='0.734071' rms='0.032836'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+</audacityproject>
