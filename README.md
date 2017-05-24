@@ -9,7 +9,7 @@ The game utilizes several existing libraries:
 
 *SneakyJoystick, a joystick library written for Cocos2D using Objective-C*
    
-   *SneakyJoystickSkinnedBase, a visual skin for the SneakyJoystick class by .
+*SneakyJoystickSkinnedBase, a visual skin for the SneakyJoystick class.
 
 *SimpleAudioEngine, a simple 2-channel audio library for Cocos2D*
 
