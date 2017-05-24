@@ -1,8 +1,8 @@
 //
 //  EndScene.m
-//  WaveProject
+//  Lucky Warp
 //
-//  Created by Game Developer on 11/14/11.
+//  Created by Albith Delgado on 11/14/11.
 //  Copyright 2011 __Albith Delgado__. All rights reserved.
 //
 

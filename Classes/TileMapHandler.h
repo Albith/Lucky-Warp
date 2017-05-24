@@ -1,9 +1,9 @@
 //
 //  TileMapHandler.h
-//  WaveProject
+//  Lucky Warp
 //
 //  Created by Albith Delgado on 11. 7. 12..
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 __Albith Delgado__. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

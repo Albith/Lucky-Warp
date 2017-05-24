@@ -1,9 +1,9 @@
 //
 //  TileMapHandler.mm
-//  WaveProject
+//  Lucky Warp
 //
 //  Created by Albith Delgado on 11. 7. 12..
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 __Albith Delgado__. All rights reserved.
 //
 
 #import "TileMapHandler.h"
@@ -57,11 +57,8 @@
     //Tile properties.
     int x ;
 	int y ;
-	//int w ;
-	//int h ;
     
 
-    
 //-----------1. Loading and preparing TMX Collision Spaces.  
     //This is done by fetching the 'collisions' object group in the file,
         //then taking that data and creating rectangles from it.    

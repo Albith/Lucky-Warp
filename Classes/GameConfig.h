@@ -1,9 +1,9 @@
 //
 //  GameConfig.h
-//  WaveProject
+//  Lucky Warp
 //
 //  Created by Albith Delgado on 11. 7. 10..
-//  Copyright __MyCompanyName__ 2011. All rights reserved.
+//  Copyright __Albith Delgado__ 2011. All rights reserved.
 //
 
 #ifndef __GAME_CONFIG_H

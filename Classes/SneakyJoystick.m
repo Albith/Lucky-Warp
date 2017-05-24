@@ -1,5 +1,5 @@
 //
-//  joystick.m
+//  SneakyJoystick.m
 //  SneakyJoystick
 //
 //  Created by Nick Pannuto.

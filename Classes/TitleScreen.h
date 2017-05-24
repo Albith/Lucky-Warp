@@ -1,9 +1,9 @@
 //
 //  TitleScreen.h
-//  WaveProject
+//  Lucky Warp
 //
-//  Created by Game Developer on 9/27/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Albith Delgado on 9/27/11.
+//  Copyright __Albith Delgado__ 2011. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -1,5 +1,5 @@
 //
-//  joystick.h
+//  SneakyJoystick.h
 //  SneakyJoystick
 //
 //  Created by Nick Pannuto.

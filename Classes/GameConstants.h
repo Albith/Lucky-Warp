@@ -1,9 +1,9 @@
 //
-//  gameStatus.h
-//  WaveProject
+//  GameConstants.h
+//  Lucky Warp
 //
-//  Created by Game Developer on 7/27/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Albith Delgado on 7/27/11.
+//  Copyright __Albith Delgado__ 2011. All rights reserved.
 //
 
 #ifndef WaveProject_GameConstants_h

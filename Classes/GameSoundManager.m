@@ -1,7 +1,7 @@
 #import "GameSoundManager.h"
 
 //This simple soundManager is based on examples that I've found online.
-	//It has only 2 channels: one for sound effects, another for a music track.
+	//It only has 2 channels: one for sound effects, another for a music track.
 	//There should be better options around today.
 
 @interface GameSoundManager (PrivateMethods)
