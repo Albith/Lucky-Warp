@@ -18,5 +18,7 @@ Where there is example code from other sources, it is noted in each files' comme
 *Developed by:*
 
 Albith R. Delgado: *game design, programming, sound effects.*
+
 Pablo Pimentel: *game art & animation.*
+
 Josue Gonzales Rivera: *music & sound effects.*
