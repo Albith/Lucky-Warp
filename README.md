@@ -15,6 +15,7 @@ The game utilizes several existing libraries:
 
 Where there is example code from other sources, it is noted in each files' comments.
 
+
 *Developed by:*
 
    + Albith R. Delgado: *game design, programming, sound effects.*
