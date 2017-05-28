@@ -21,4 +21,4 @@ Albith R. Delgado: *game design, programming, sound effects.*
 
 Pablo Pimentel: *game art & animation.*
 
-Josue Gonzales Rivera: *music & sound effects.*
+Josué González Rivera: *music & sound effects.*
